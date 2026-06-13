@@ -58,23 +58,24 @@ make
 ./cub3d maps/map.cub
 ```
 
-Building
+## Building
 ```
 make          # Compile the project
 make clean    # Remove object files
 make fclean   # Full clean (includes executable)
 make re       # Rebuild everything
 ```
-Requirements
+## Requirements
 
 - macOS or Linux
 - MiniLibX (included in the repo)
 - X11 / OpenGL development libraries (Linux)
 
-Notes
+## Notes
 
 - This is a 42 School project — the goal is to code a small 3D engine from scratch without using modern game engines.
 - All maps must follow the .cub format specification (see subject PDF).
+- This was a group project
 
 
 Read-only repository
